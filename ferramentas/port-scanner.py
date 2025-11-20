@@ -8,7 +8,7 @@ texto = pyfiglet.figlet_format('Port Scanner', font='slant')
 print("*" * 100)
 print(texto)
 print("*" * 100)
-
+print("\n")
 
 #Criar as funcões
 def scann_completo():

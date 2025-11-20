@@ -9,5 +9,5 @@ read dominio
 
 for i in $(cat word-list.txt)
 do
-	host $i.$dominio
+	host $i.$dominio | grep -v "not found"
 done
