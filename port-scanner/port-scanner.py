@@ -2,7 +2,7 @@
 import socket
 import pyfiglet
 import argparse
-from colorama import Fore, Style
+from colorama import Fore
 #=======================================================================================================================
 
 #Lista das portas comuns
